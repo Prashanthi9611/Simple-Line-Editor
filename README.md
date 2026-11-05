@@ -36,16 +36,16 @@ Dynamic Array of Strings.
 
 ## How to Compile
 
-gcc -std=c11 -Wall -Wextra main.c -o editor
+gcc -std=c11 -Wall -Wextra line_editor.c -o line_editor
 
 ## How to Run
 
-./editor
+./line_editor
 
 ## Project Structure
 
 LineEditor/
 |
-|-- main.c
+|-- line_editor.c
 |-- HELP.md
 |-- README.md
